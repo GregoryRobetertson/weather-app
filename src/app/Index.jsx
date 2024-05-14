@@ -16,7 +16,7 @@ export default function Index() {
         try {
             const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.NEXT_PUBLIC_WEATHER_KEY}`);
             setWeather(response.data);
-            // console.log(response.data);
+            console.log(response.data);
         } catch (error) {
             console.error('Error fetching data', error);
         }
