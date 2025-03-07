@@ -26,6 +26,7 @@ export default function Index() {
    
     return (
         <>
+        <div></div>
             <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/40 z-10">
                 <Image src="/weather.jpg" alt="Weather" layout="fill" className='object-cover'/>
                 <div className="absolute inset-0 bg-opacity-50 bg-gray-900">
